@@ -18,7 +18,9 @@ public class LoginPage {
         this.driver = driver;
         this.wait = new WaitHelper(driver, timeout);
     }
-
+    
+    //Entering the email address
+   
     public void enterEmail(String email1) {
         wait.waitForVisibility(emailField).sendKeys(email1);
         wait.waitForVisibility(nextBtn).click();
