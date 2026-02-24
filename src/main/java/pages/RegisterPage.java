@@ -30,6 +30,8 @@ public  class RegisterPage {
 		wait.waitForVisibility(Confirmpassword).sendKeys(confirmpassword);
 	}
 	
+	// clicking the rigister button
+	
 	public void registerbutton() {
 		// wait.until(ExpectedConditions.elementToBeClickable(Registerbutton)).click();
 		wait.waitForClikable(Registerbutton).click();
